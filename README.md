@@ -11,9 +11,14 @@ Pre-requisites:
 2)Maven 3.0 or more
 
 INSTRUCTIONS TO RUN:
-1)Edit DriverClass in your favourite IDE/textEditor.(filePath:circket-simulation/src/main/java/com/cricketsim/driverclass/DriverClass.java)
-2)Change your team-name/players probability of hitting scores,number of overs left, number of runsNeededtoWin etc.,accordingly
------>Example: /* 4-represents number of overs left
+
+1)Edit DriverClass in your favourite IDE/textEditor.
+    -->(filePath:circket-simulation/src/main/java/com/cricketsim/driverclass/DriverClass.java)
+    
+2)Change your team-name/players probability of hitting scores,number of overs left, 
+  number of runsNeededtoWin etc.,accordingly
+  
+    ----->Example: /* 4-represents number of overs left
 		 * 40-represents number of runs need to win
 		 * */
 		SimulateCricketMatch scm = new SimulateCricketMatch(players,scoresArray,4,40);
@@ -23,21 +28,27 @@ INSTRUCTIONS TO RUN:
 3)Inorder to run the application goto-> project directory -> open terminal -> ($> mvn clean install)
 
 Now you will see some o/p like below:
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.092 s
-[INFO] Finished at: 2019-11-28T01:50:43+05:30
-[INFO] Final Memory: 18M/210M
-[INFO] ------------------------------------------------------------------------
 
+[INFO] ------------------------------------------------------------------------ 
+
+[INFO] BUILD SUCCESS 
+
+[INFO] ------------------------------------------------------------------------ 
+
+[INFO] Total time: 2.092 s 
+
+[INFO] Finished at: 2019-11-28T01:50:43+05:30 
+
+[INFO] Final Memory: 18M/210M 
+
+[INFO] ------------------------------------------------------------------------ 
 
 
 4) Once build gets success -> goto target directory -> then run below command:
 $> java -jar circket-simulation-0.0.1-SNAPSHOT.jar
 then if everything goes correct then you will see below output:
 
->>SCENARIO WHEN BANGALORE LOSTS:
+>>SCENARIO WHEN TEAM-X LOST:
 
 4 Overs left. 40 to win
 -----------------------------------------------------------
@@ -77,20 +88,29 @@ Banglore lost......!!!
 
 
 Match summary.........
+
 Kirat Boli scored :3 runs & played: 3 balls & batting status: out
+
 -----------------------
+
 Match summary.........
+
 N.S Nodhi scored :10 runs & played: 6 balls & batting status: not out
+
 -----------------------
 Match summary.........
+
 R Rumrah scored :1 runs & played: 2 balls & batting status: out
+
 -----------------------
 Match summary.........
+
 Shashi Henra scored :0 runs & played: 3 balls & batting status: out
+
 -----------------------
 
 
->>SCENARIO WHEN BANGALORE WINS:
+>>SCENARIO WHEN TEAM-X WINS:
 
 4 Overs left. 40 to win
 -----------------------------------------------------------
@@ -132,16 +152,24 @@ Banglore won......!!!
 
 
 Match summary.........
+
 Kirat Boli scored :35 runs & played: 11 balls & batting status: not out
+
 -----------------------
 Match summary.........
+
 N.S Nodhi scored :7 runs & played: 3 balls & batting status: not out
+
 -----------------------
 Match summary.........
+
 R Rumrah scored :0 runs & played: 0 balls & batting status: not out
+
 -----------------------
 Match summary.........
+
 Shashi Henra scored :0 runs & played: 0 balls & batting status: not out
+
 -----------------------
 
 
